@@ -295,7 +295,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/', '_blank');
+    window.open('https://t.me/chomikportal', '_blank');
   });
 
   chartBtn.addEventListener('click', function() {
