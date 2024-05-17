@@ -1,0 +1,10 @@
+Source: https://fontenddev.com/fonts/notepen/
+First Prototype: July 20, 2018 (As “Scrawl”)
+First Release: August 23, 2018
+
+Download on dafont.com: https://www.dafont.com/notepen.font
+
+Release Details: https://fontenddev.com/2018/08/22/notepen-new-font/
+
+Developer's note...
+	" A pixel recreation of my handwriting. To keep things natural and lively, every single letter is unique, including accented characters. "

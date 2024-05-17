@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'elite';
+  src: url('./metadata/fonts/special-elite-regular.ttf');
+}
+@font-face {
+  font-family: 'notepen';
+  src: url('./metadata/fonts/notepen.ttf');
+}
+
+:root {
+  --text: #000000;
+  --base: #ffffff;
+}
+
+html { height: 100%; }
+body {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  font-size: 1rem;
+  font-family: 'notepen';
+  color: var(--text);
+  
+  background-color: var(--base);
+}
+
+header {
+  border: 1px dotted magenta;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+
+}
+
+main {
+  border: 1px dotted magenta;
+
+  position: absolute;
+  top: 48px;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+}
+main h1 {
+  font-size: 5rem;
+}
+
+footer {
+  border: 1px dotted magenta;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+
+}
