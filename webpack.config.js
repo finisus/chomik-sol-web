@@ -22,6 +22,7 @@ module.exports = {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
     clean: true,
+    publicPath: '/',
   },
   optimization: {
     runtimeChunk: 'single',
@@ -35,10 +36,6 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
         type: 'asset/resource',
-      },
-      {
-        test: /\.webp$/i,
-        use: ['file-loader', 'webp-loader'],
       },
     ],
   },
