@@ -299,7 +299,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   chartBtn.addEventListener('click', function() {
-    window.open('https://www.pump.fun/9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA', '_blank');
+    window.open('https://dexscreener.com/solana/74cxisvljwaeynd43u1uvxxviyq6mzpjbxabviseya8m', '_blank');
   });
 
   buyBtn.addEventListener('click', function() {
