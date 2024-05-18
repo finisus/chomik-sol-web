@@ -299,11 +299,11 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com/solana/', '_blank');
+    window.open('https://www.pump.fun/9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA', '_blank');
   });
 
   buyBtn.addEventListener('click', function() {
-    window.open('https://raydium.io/swap/?inputCurrency=sol&outputCurrency=', '_blank');
+    window.open('https://www.pump.fun/9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA', '_blank');
   });
 
   // COPY FUNCTION
