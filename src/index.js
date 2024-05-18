@@ -97,7 +97,7 @@ const footer = document.querySelector('footer');
 
 const contract = document.createElement('span');
 contract.id = "contract";
-contract.innerHTML = `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`;
+contract.innerHTML = `9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA`;
 footer.appendChild(contract);
 
 const copyCaBtn = document.createElement('button');
@@ -308,7 +308,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // COPY FUNCTION
   const copyButton = copyCaBtn;
-  const textToCopy = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
+  const textToCopy = "9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA";
   copyButton.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
