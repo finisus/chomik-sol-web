@@ -34,9 +34,19 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif|webp)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|webp|mp3|mp4)$/i,
         type: 'asset/resource',
       },
+      {
+        test: /\.(ttf|otf|eot|woff|woff2)$/,
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name][ext][query]',
+        },
+      },
     ],
+  },
+  performance: {
+    hints: false,
   },
 };

@@ -97,7 +97,7 @@ const footer = document.querySelector('footer');
 
 const contract = document.createElement('span');
 contract.id = "contract";
-contract.innerHTML = `9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA`;
+contract.innerHTML = `EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v`;
 footer.appendChild(contract);
 
 const copyCaBtn = document.createElement('button');
@@ -291,25 +291,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // LINKS
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/ChomikSol', '_blank');
+    window.open('https://x.com/', '_blank');
   });
-
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/chomikportal', '_blank');
+    window.open('https://t.me/', '_blank');
   });
-
   chartBtn.addEventListener('click', function() {
-    window.open('https://dexscreener.com/solana/74cxisvljwaeynd43u1uvxxviyq6mzpjbxabviseya8m', '_blank');
+    window.open('https://dexscreener.com/solana/', '_blank');
   });
-
   buyBtn.addEventListener('click', function() {
-    window.open('https://www.pump.fun/9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA', '_blank');
+    window.open('https://www.pump.fun/', '_blank');
   });
 
   // COPY FUNCTION
-  const copyButton = copyCaBtn;
-  const textToCopy = "9s27dnCRMVhxtskPded2aYVXsbwWbJ1yuc2PobHUpFiA";
-  copyButton.addEventListener("click", async () => {
+  const textToCopy = contract.innerHTML;
+  copyCaBtn.addEventListener("click", async () => {
     try {
       // Try the modern Clipboard API first (if supported)
       await navigator.clipboard.writeText(textToCopy);
