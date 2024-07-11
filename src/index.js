@@ -291,10 +291,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // LINKS
   twitterBtn.addEventListener('click', function() {
-    window.open('https://x.com/', '_blank');
+    window.open('https://x.com/ChomikSol', '_blank');
   });
   telegramBtn.addEventListener('click', function() {
-    window.open('https://t.me/', '_blank');
+    window.open('https://t.me/ChomikSol', '_blank');
   });
   chartBtn.addEventListener('click', function() {
     window.open('https://dexscreener.com/solana/', '_blank');
