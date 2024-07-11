@@ -97,7 +97,7 @@ const footer = document.querySelector('footer');
 
 const contract = document.createElement('span');
 contract.id = "contract";
-contract.innerHTML = `XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX`;
+contract.innerHTML = `5zuThjffh8VKm7kkgFkk2YgTTTD4SC6q1cEeYEpDpump`;
 footer.appendChild(contract);
 
 const copyCaBtn = document.createElement('button');
@@ -300,7 +300,7 @@ document.addEventListener('DOMContentLoaded', function() {
     window.open('https://dexscreener.com/solana/', '_blank');
   });
   buyBtn.addEventListener('click', function() {
-    window.open('https://www.pump.fun/', '_blank');
+    window.open('https://www.pump.fun/5zuThjffh8VKm7kkgFkk2YgTTTD4SC6q1cEeYEpDpump', '_blank');
   });
 
   // COPY FUNCTION
